@@ -40,7 +40,7 @@ public class ReversePolishNotationCalculatorTest {
     }
 
     @Test
-    public void shouldCalculateCompoundArithmetic() {
+    public void shouldCalculateCompoundArithmeticInPresenceOfSomeAdditionalSpaces() {
         assertEquals(10, reversePolishNotationCalculator.calculatePolishNotation("-2 -1  4  0 +  -  *"));
     }
 }
